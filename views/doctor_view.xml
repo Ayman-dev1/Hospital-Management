@@ -9,6 +9,7 @@
                         <field name="name"/>
                         <field name="specialty"/>
                         <field name="phone"/>
+                        <field name="department_id"/>
                     </group>
                     <group>
                         <field name="nurse_ids"/>
@@ -26,6 +27,7 @@
                 <field name="name"/>
                 <field name="specialty"/>
                 <field name="phone"/>
+                <field name="department_id"/>
             </tree>
         </field>
     </record>
@@ -36,6 +38,5 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_management" name="Hospital Management" sequence="1"/>
     <menuitem id="menu_doctor" name="Doctors" parent="menu_management" action="action_doctor"/>
 </odoo>

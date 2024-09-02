@@ -28,6 +28,7 @@
         'views/patient_view.xml',
         'views/doctor_view.xml',
         'views/nurse_view.xml',
+        'views/department_view.xml',
         'security/ir.model.access.csv',
     ],
     # only loaded in demonstration mode

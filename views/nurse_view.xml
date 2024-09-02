@@ -8,6 +8,7 @@
                     <group>
                         <field name="name"/>
                         <field name="phone"/>
+                        <field name="department_id"/>
                     </group>
                     <group>
                         <field name="doctor_ids"/>
@@ -24,6 +25,7 @@
             <tree string="Nurse List">
                 <field name="name"/>
                 <field name="phone"/>
+                <field name="department_id"/>
             </tree>
         </field>
     </record>
@@ -35,6 +37,5 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_management" name="Hospital Management" sequence="1"/>
     <menuitem id="menu_nurse" name="Nurses" parent="menu_management" action="action_nurse"/>
 </odoo>
