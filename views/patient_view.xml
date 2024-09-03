@@ -9,7 +9,6 @@
                         <field name="name"/>
                         <field name="age"/>
                         <field name="gender"/>
-                        <field name="doctor_id"/>
                         <field name="note"/>
                     </group>
                 </sheet>
@@ -25,7 +24,6 @@
                 <field name="name"/>
                 <field name="age"/>
                 <field name="gender"/>
-                <field name="doctor_id"/>
             </tree>
         </field>
     </record>
@@ -38,5 +36,6 @@
 
 
     <menuitem id="menu_management" name="Hospital Management" sequence="1"/>
-    <menuitem id="menu_patient" name="Patients" parent="menu_management" action="action_patient"/>
+    <menuitem id="menu_individual" name="Individuals" parent="menu_management" sequence="2"/>
+    <menuitem id="menu_patient" name="Patients" parent="menu_individual" action="action_patient"/>
 </odoo>

@@ -10,9 +10,6 @@
                         <field name="phone"/>
                         <field name="department_id"/>
                     </group>
-                    <group>
-                        <field name="doctor_ids"/>
-                    </group>
                 </sheet>
             </form>
         </field>
@@ -37,5 +34,5 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_nurse" name="Nurses" parent="menu_management" action="action_nurse"/>
+    <menuitem id="menu_nurse" name="Nurses" parent="menu_individual" action="action_nurse"/>
 </odoo>
