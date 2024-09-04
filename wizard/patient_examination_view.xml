@@ -11,6 +11,10 @@
                         <field name="doctor_id"/>
                     </group>
                 </sheet>
+                <footer>
+                    <button string="Apply" type="object" name="action_apply" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
             </form>
         </field>
     </record>
@@ -26,7 +30,6 @@
 
     <menuitem id="menu_patient_examination"
               name="examination"
-              parent="menu_individual"
               action="action_patient_examination"
               sequence="10"/>
 
