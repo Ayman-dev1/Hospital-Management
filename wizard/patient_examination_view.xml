@@ -28,9 +28,10 @@
         <field name="target">new</field>
     </record>
 
-    <menuitem id="menu_patient_examination"
-              name="examination"
-              action="action_patient_examination"
-              sequence="10"/>
+<!--    <menuitem id="menu_patient_examination"-->
+<!--              name="examination"-->
+<!--              parent=""-->
+<!--              action="action_patient_examination"-->
+<!--              sequence="10"/>-->
 
 </odoo>
