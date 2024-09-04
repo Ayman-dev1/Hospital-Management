@@ -3,3 +3,4 @@ access_patient,patient,model_patient,,1,1,1,1
 access_doctor,doctor,model_doctor,,1,1,1,1
 access_nurse,nurse,model_nurse,,1,1,1,1
 access_department,department,model_department,,1,1,1,1
+access_patient.examination,patient.examination,model_patient_examination,,1,1,1,1

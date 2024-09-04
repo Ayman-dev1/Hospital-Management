@@ -13,7 +13,7 @@ class Patient(models.Model):
     department_id = fields.Many2one('department', string='Department')
     doctor_id = fields.Many2one('doctor', string='Doctor')
     state = fields.Selection(
-        [('after', 'After'), ('pending', 'Pending'), ('done', 'Done')],
+        [('after', 'After'), ('examination', 'Examination'), ('done', 'Done')],
         default='after'
     )
 
@@ -26,17 +26,16 @@ class Patient(models.Model):
             return {'domain': {'doctor_id': [('id', '=', False)]}}
 
     def action_after(self):
-        for rec in self:
-            rec.state = 'after'
+        self.state = 'after'
 
-    def action_pending(self):
-        for rec in self:
-            print("inside pending action")
-            rec.state = 'pending'
+    def action_patient_examination(self):
+        action = self.env.ref('odoo_hos.action_patient_examination').read()[0]
+        return action
+
+    def action_examination(self):
+        self.state = 'examination'
 
     def action_done(self):
-        for rec in self:
-            print("inside Done action")
-            rec.state = 'done'
+        self.state = 'done'
 
 
