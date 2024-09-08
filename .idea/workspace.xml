@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aa876ec-d8c5-4fbc-9c2e-bd90fd4c218a" name="Changes" comment="" />
+    <list default="true" id="2aa876ec-d8c5-4fbc-9c2e-bd90fd4c218a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Ayman-dev1/Hospital-Management.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Ayman-dev1/odoo_hos.git&quot;,
     &quot;accountId&quot;: &quot;633b39a3-51a0-44db-a2e8-89dd46bc2bbf&quot;
   }
 }</component>
@@ -38,12 +40,12 @@
     &quot;Python.odoo-bin.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/aymanelwan/custom_odoo16/odoo_hos&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/aymanelwan/odoo16/odoo/odoo-bin&quot;
   }
 }</component>
   <component name="RunManager">
     <configuration name="odoo-bin" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Hospital-Management" />
+      <module name="odoo_hos" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +59,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/odoo16/odoo/odoo-bin" />
-      <option name="PARAMETERS" value="-c $USER_HOME$/odoo16/odoo/odoo.conf" />
+      <option name="PARAMETERS" value="-c $USER_HOME$/odoo16/odoo/odoo.conf -u odoo_hos" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />

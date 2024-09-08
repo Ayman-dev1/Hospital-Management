@@ -21,7 +21,10 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': [
+        'base',
+        'sale_management',
+    ],
 
     # always loaded
     'data': [
@@ -31,6 +34,7 @@
         'views/doctor_view.xml',
         'views/nurse_view.xml',
         'views/department_view.xml',
+        'views/sale_order_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
