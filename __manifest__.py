@@ -30,15 +30,19 @@
     'data': [
         'security/ir.model.access.csv',
         'wizard/patient_examination_view.xml',
+        'views/menu.xml',
         'views/patient_view.xml',
         'views/doctor_view.xml',
         'views/nurse_view.xml',
         'views/department_view.xml',
         'views/sale_order_view.xml',
+        'reports/report.xml',
+        'reports/patient_card.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    'license':'LGPL-3',
     'application': True,
 }

@@ -1,0 +1,22 @@
+<odoo>
+<!--    <data>-->
+<!--        &lt;!&ndash; QWeb Reports &ndash;&gt;-->
+<!--        <record id="report_invoice" model="ir.actions.report">-->
+<!--            <field name="name">Commercial Invoice</field>-->
+<!--            <field name="model">account.move</field>-->
+<!--            <field name="report_type">qweb-pdf</field>-->
+<!--            <field name="report_name">account.report_invoice</field>-->
+<!--            <field name="report_file">account.report_invoice</field>-->
+<!--            <field name="binding_model_id" ref="model_account_move"/>-->
+<!--            <field name="binding_type">report</field>-->
+<!--        </record>-->
+<!--    </data>-->
+
+    <report
+        id="report_patient_card"
+        string="Patient Card"
+        model="patient"
+        report_type="qweb-pdf"
+        name="odoo_hos.report_patient"
+        file="odoo_hos.report_patient"/>
+</odoo>

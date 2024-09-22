@@ -34,5 +34,8 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_nurse" name="Nurses" parent="menu_individual" action="action_nurse"/>
+    <menuitem id="menu_nurse"
+              name="Nurses"
+              parent="menu_individual"
+              action="action_nurse"/>
 </odoo>

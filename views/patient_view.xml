@@ -52,7 +52,8 @@
     </record>
 
 
-    <menuitem id="menu_management" name="Hospital Management" sequence="1"/>
-    <menuitem id="menu_individual" name="Individuals" parent="menu_management" sequence="2"/>
-    <menuitem id="menu_patient" name="Patients" parent="menu_individual" action="action_patient"/>
+    <menuitem id="menu_patient"
+              name="Patients"
+              parent="menu_individual"
+              action="action_patient"/>
 </odoo>
